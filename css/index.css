@@ -1,0 +1,82 @@
+/**
+ * css/index.css - unlearn.plado.ca
+ *
+ * Licensed under MIT license.
+ * Copyright (C) 2017 PLADO Inc. All rights reserved.
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Helvetica', sans-serif;
+
+  color: #3F51B5;
+  text-align: center;
+}
+
+html,
+body,
+main {
+  height: 100%;
+  width: 100%;
+
+  overflow: hidden;
+}
+
+main {
+  display: table;
+}
+
+main > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+h1 {
+  -webkit-animation: 3s ease 0s enter;
+  -moz-animation: 3s ease 0s enter;
+  -o-animation: 3s ease 0s enter;
+  animation: 3s ease 0s enter;
+
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.lead {
+  font-size: 1.5rem;
+
+  -webkit-animation: 3s ease 0s fade;
+  -moz-animation: 3s ease 0s fade;
+  -o-animation: 3s ease 0s fade;
+  animation: 3s ease 0s fade;
+}
+
+h1, .lead {
+  padding: .5rem 0;
+}
+
+.copy {
+  font-size: 1rem;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  padding: 2rem 1rem;
+
+  -webkit-animation: 3s ease 0s enter;
+  -moz-animation: 3s ease 0s enter;
+  -o-animation: 3s ease 0s enter;
+  animation: 3s ease 0s enter;
+}
